@@ -1,0 +1,3 @@
+# 项目排除路径
+/framework/target/
+/manager-api/target/

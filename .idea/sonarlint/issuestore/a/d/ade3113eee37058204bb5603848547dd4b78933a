@@ -1,0 +1,4 @@
+
+y	java:S116#"XRename this field "apiclient_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µò¥ƒüÿÿÿÿ8…Ž‹åÄ0
+y	java:S116'"]Rename this field "apiclient_cert_pem" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(žØÃ¨8ˆŽ‹åÄ0
+~	java:S116+"]Rename this field "apiclient_cert_p12" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Àªéýÿÿÿÿ8ˆŽ‹åÄ0

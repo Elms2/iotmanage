@@ -1,0 +1,6 @@
+aliyun:
+  oss:
+    endpoint: oss-cn-guangzhou.aliyuncs.com
+    keyid: LTAI5t9pT27kxbL63ddw3xZG
+    keysecret: XyKOjiFK9cpGNJev0HKpQOJ6dSs3sI
+    bucketname: game-community

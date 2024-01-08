@@ -1,0 +1,77 @@
+package ${package}.modules.${moduleName}.controller;
+
+
+import com.wteam.framework.common.enums.ResultUtil;
+import com.wteam.framework.common.vo.ResultMessage;
+import com.wteam.framework.common.vo.SearchVO;
+import com.wteam.framework.common.mybatis.util.PageUtil;
+import com.wteam.framework.common.vo.PageVO;
+import com.wteam.framework.common.enums.ResultCode;
+import ${package}.modules.${moduleName}.service.${className}Service;
+import com.wteam.framework.modules.${classname}.entity.dos.${className};
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import java.util.Arrays;
+
+
+
+
+/**
+ * ${comments}
+ *
+ * @author ${author} ${email}
+ * @since ${version} ${date}
+ */
+@RestController
+@RequestMapping("${moduleName}/${pathName}")
+@Api(tags = "${comments}")
+public class ${className}Controller {
+
+    @Autowired
+    private ${className}Service ${classname}Service;
+
+    @GetMapping("page")
+    @ApiOperation("分页")
+    public ResultMessage<IPage<${className}>> page(${className} entity,
+                                                                SearchVO searchVo,
+                                                                PageVO page) {
+        IPage<${className}> data = ${classname}Service.page(PageUtil.initPage(page), PageUtil.initWrapper(entity, searchVo));
+        return ResultUtil.data(data);
+
+    }
+
+    @GetMapping("{id}")
+    @ApiOperation("信息")
+    public ResultMessage<${className}> get(@PathVariable("id") Long id) {
+        ${className} data = ${classname}Service.getById(id);
+
+        return ResultUtil.data(data);
+    }
+
+    @PostMapping
+    @ApiOperation("保存")
+    public ResultMessage save(@RequestBody ${className} entity) {
+        //效验数据
+        return ${classname}Service.save(entity) ? ResultUtil.success() : ResultUtil.error(ResultCode.ERROR);
+
+    }
+
+    @PutMapping
+    @ApiOperation("修改")
+    public ResultMessage update(@RequestBody ${className} entity) {
+        //效验数据
+        return ${classname}Service.updateById(entity) ? ResultUtil.success() : ResultUtil.error(ResultCode.ERROR);
+    }
+
+    @DeleteMapping
+    @ApiOperation("删除")
+    public ResultMessage delete(@RequestBody Long[] ids) {
+        //效验数据
+        return ${classname}Service.removeBatchByIds(Arrays.asList(ids)) ? ResultUtil.success() : ResultUtil.error(ResultCode.ERROR);
+    }
+
+
+}

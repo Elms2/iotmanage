@@ -1,0 +1,10 @@
+
+f
+java:S1192\"IDefine a constant instead of duplicating this literal "order_no" 3 times.(ã—„¢8†œÿ«Æ0
+s	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¥‚Œùÿÿÿÿ8ï™œ…Æ0
+O
+java:S1874b"2Remove this use of "URLEncoder"; it is deprecated.(÷ŒžÜ8™›œ…Æ0
+N
+java:S1135y"2Complete the task associated to this TODO comment.(ïŒ¥*8µ›œ…Æ0
+U
+java:S1135€"2Complete the task associated to this TODO comment.(…öƒ·ÿÿÿÿÿ8¾›œ…Æ0

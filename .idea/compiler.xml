@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="generator" />
+        <module name="framework" />
+        <module name="client-api" />
+        <module name="manager-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="authentication-manager" target="1.8" />
+      <module name="common-component" target="1.8" />
+      <module name="configure-component" target="8" />
+      <module name="consumer" target="1.8" />
+      <module name="dashboard-component" target="1.8" />
+      <module name="device-manager" target="1.5" />
+      <module name="elasticsearch-component" target="1.5" />
+      <module name="gateway-component" target="1.8" />
+      <module name="http-component" target="1.5" />
+      <module name="io-component" target="1.5" />
+      <module name="jetlinks-community" target="1.5" />
+      <module name="jetlinks-components" target="1.8" />
+      <module name="jetlinks-manager" target="1.5" />
+      <module name="jetlinks-standalone" target="1.5" />
+      <module name="logging-component" target="1.5" />
+      <module name="logging-manager" target="1.5" />
+      <module name="mqtt-component" target="1.8" />
+      <module name="network-component" target="1.5" />
+      <module name="network-core" target="1.5" />
+      <module name="network-manager" target="1.5" />
+      <module name="notify-component" target="1.5" />
+      <module name="notify-core" target="1.5" />
+      <module name="notify-dingtalk" target="1.5" />
+      <module name="notify-email" target="1.5" />
+      <module name="notify-manager" target="1.5" />
+      <module name="notify-sms" target="1.5" />
+      <module name="notify-voice" target="1.5" />
+      <module name="notify-webhook" target="1.5" />
+      <module name="notify-wechat" target="1.8" />
+      <module name="protocol-component" target="1.5" />
+      <module name="relation-component" target="1.5" />
+      <module name="rule-engine-component" target="1.5" />
+      <module name="rule-engine-manager" target="1.5" />
+      <module name="script-component" target="1.8" />
+      <module name="tcp-component" target="1.8" />
+      <module name="tdengine-component" target="1.5" />
+      <module name="things-component" target="8" />
+      <module name="timeseries-component" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

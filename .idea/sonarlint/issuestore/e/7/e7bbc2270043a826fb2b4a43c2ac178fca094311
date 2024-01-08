@@ -1,0 +1,11 @@
+
+œ
+java:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—µ±þýÿÿÿÿ
+œ
+java:S1186B"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Î’ÇÄþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ƒäÊúüÿÿÿÿ
+U
+java:S6213%":Rename this variable to not match a restricted identifier.(’¹š½úÿÿÿÿ
+M	java:S106*"9Replace this use of System.out or System.err by a logger.(ã‚ƒ
+B
+java:S16026",Remove useless curly braces around statement(µãº’
